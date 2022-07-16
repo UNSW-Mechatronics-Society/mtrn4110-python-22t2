@@ -1,0 +1,14 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pydocstyleEnabled": true,
+  "python.linting.pydocstyleArgs": [
+    "--ignore=D1, D213, D413, D407, D406, D401, D400, D205, D415, D203, D404, D212, D200"
+  ],
+
+  "python.formatting.autopep8Args": [
+    "--max-line-length=150",
+    "--ignore=E302, E305, E301"
+  ],
+  "editor.formatOnSave": true
+}
